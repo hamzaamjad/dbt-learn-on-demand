@@ -7,7 +7,7 @@ WITH orders as (
         status
 
     from dbt-tutorial.jaffle_shop.orders
-
+    -- completed, shipped, returned, placed, return_pending
 )
 
 SELECT * FROM orders
